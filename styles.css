@@ -1,0 +1,179 @@
+body{
+    background-color: #FCFCFC;
+    font-family: 'Raleway';
+   
+}
+
+.header{
+    width: 100%;
+    background: #F8F8F8;
+    color: #3F68FE;
+}
+
+.header-container {
+	margin-left: 0;
+	margin-right: 0px;
+	display: flex;
+    padding: 10px 200px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+    width: 20px;
+}
+
+.navbar ul {
+	margin: 0;
+	margin-left: 40px;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar ul li {
+	display: inline-block;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 8px 20px;
+    color: #494949;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    cursor: pointer;
+    color: #3F68FE;
+}
+
+.welcome{
+    padding: 200px;
+    background-image:  url(https://www.wallpapertip.com/wmimgs/2-23921_top-view-photo-of-keyboard-and-earphones-white.jpg);
+}
+
+.welcome .welcome-container{
+    text-align: center;
+}
+
+.welcome .welcome-container .welcome-container-item{
+    display: inline-block;
+}
+
+.welcome .welcome-container .welcome-container-item .title_we{
+    text-align: start;
+    font-size: 72px;
+    color: #3F68FE;
+    margin: 0;
+    font-weight: 900;
+}
+
+
+.welcome .welcome-container .welcome-container-item .title_are{
+    text-align: start;
+    font-size: 72px;
+    margin: 0;
+    color: #464646;
+}
+
+.principal-image{
+    width: 400px;
+}
+
+
+
+.about-us .team{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.about-us .team .team-member{
+    vertical-align: top;
+    display: inline-block;
+    margin: 100px 100px 100px 100px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	padding: 8px 20px;
+    color: #494949;
+    text-decoration: none;
+    height: 500px;
+    width: 250px;
+    justify-content: space-between;
+}
+
+.about-us .team .team-member:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 510px;
+    width: 260px;
+}
+
+
+.about-us .team .team-member p{
+    font-size: 12px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.about-us .team .team-member iframe{
+    width: 250px;
+    height: 150px;
+}
+
+.about-us .team .team-member img{
+    width: 150px;
+    clip-path: circle();
+}
+
+.footer{
+    background-color: #494949;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer ul li a{
+    color: #FCFCFC;
+}
+
+.footer ul li img{
+   width: 50px;
+}
+
+
+
+.footer ul li a:hover{
+    color: #3F68FE;
+}
+
+
+.team-presentation{
+    margin: 80px 0px 00px 200px;
+}
+
+
+.team-presentation .team-presentation-item{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.team-presentation .team-presentation-item img{
+    width: 80px;
+    clip-path: circle();
+}
+
+
+.about-us .team .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40em
+}

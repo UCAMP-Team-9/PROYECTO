@@ -1,0 +1,283 @@
+body{
+    background-color: #FCFCFC;
+    font-family: 'Raleway';
+   
+}
+
+.header{
+    width: 100%;
+    background: #F8F8F8;
+    color: #3F68FE;
+}
+
+.header-container {
+	margin-left: 0;
+	margin-right: 0px;
+	display: flex;
+    padding: 10px 200px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+    width: 20px;
+}
+
+.navbar ul {
+	margin: 0;
+	margin-left: 40px;
+	padding: 0;
+	list-style: none;
+}
+
+.navbar ul li {
+	display: inline-block;
+}
+
+.navbar ul li a {
+	display: block;
+	padding: 8px 20px;
+    color: #494949;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    cursor: pointer;
+    color: #3F68FE;
+}
+
+.welcome{
+    padding: 200px;
+    background-image:  url(https://www.wallpapertip.com/wmimgs/2-23921_top-view-photo-of-keyboard-and-earphones-white.jpg);
+}
+
+.welcome .welcome-container{
+    text-align: center;
+}
+
+.welcome .welcome-container .welcome-container-item{
+    display: inline-block;
+}
+
+.welcome .welcome-container .welcome-container-item .title_we{
+    text-align: start;
+    font-size: 72px;
+    color: #3F68FE;
+    margin: 0;
+    font-weight: 900;
+}
+
+
+.welcome .welcome-container .welcome-container-item .title_are{
+    text-align: start;
+    font-size: 72px;
+    margin: 0;
+    color: #464646;
+}
+
+.principal-image{
+    width: 400px;
+}
+
+.anime-logo{
+    width: 140%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.anime-character{
+    position: absolute;
+    height: 100%;
+    left: 37%;
+    bottom: 0.5%;
+}
+
+.anime-character:hover{
+    src: url();
+    position: absolute;
+    height: 100%;
+    left: 37%;
+    bottom: 0.5%;
+}
+
+
+
+.anime-wrapper{
+    text-align: center;
+}
+
+.anime-item{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.anime-wrapper .anime-item .bnha{
+    background: #FFEF03;
+    display: inline-block;
+    width: 70%;
+    height: 180%;
+    text-align: left;
+    margin: 50px 0% 0% 0%;
+    vertical-align: bottom;
+    justify-content: space-between;
+}
+
+.anime-wrapper .anime-item .soul{
+    background: #5F2DE8;
+    display: inline-block;
+    width: 70%;
+    height: 180%;
+    text-align: left;
+    margin: 50px 0% 0% 0%;
+    vertical-align: bottom;
+    justify-content: space-between;
+}
+
+.anime-wrapper .anime-item .bnha .anime-item-component{
+    display: inline-block;
+    margin: 0px 100px 100px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    height: 250px;
+    width: 250px;
+    margin-right: 25%;
+    vertical-align: middle;
+}
+
+
+.anime-wrapper .anime-item .soul .anime-item-component{
+    display: inline-block;
+    margin: 0px 100px 100px 50px;
+    border-radius: 30px;
+    text-decoration: none;
+    height: 250px;
+    width: 250px;
+    margin-right: 25%;
+    color: #F8F8F8;
+    vertical-align: middle;
+}
+
+.footer{
+    background-color: #494949;
+}
+
+.footer ul li{
+    display: inline-block;
+    padding: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.footer ul li a{
+    color: #FCFCFC;
+}
+
+.footer ul li img{
+   width: 50px;
+}
+
+
+.footer ul li a:hover{
+    color: #3F68FE;
+}
+
+
+.team-presentation{
+    margin: 80px 0px 00px 200px;
+}
+
+
+.team-presentation .team-presentation-item{
+    display: inline-block;
+    padding: 10px 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.team-presentation .team-presentation-item img{
+    width: 80px;
+    clip-path: circle();
+}
+
+
+.text {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    width: 140%;
+    font-size: 15px;
+    
+}
+
+.image-grid {
+    margin-top: 50px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 5vw);
+    grid-gap: 10%;
+}
+
+.image-grid img{
+    height: 120%;
+}
+
+.image-grid .image-1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+  
+.image-grid .image-2 {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.image-grid .image-3 {
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image-grid .image-4 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.image-grid .image-5 {
+    margin-top: 10%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+ 
+@media only screen and (max-width: 1750px) {
+ 
+    
+
+    .anime-character{
+        position: absolute;
+        height: 80%;
+        left: 50%;
+        bottom: 0.5%;
+    }
+
+    .anime-character:hover{
+        position: absolute;
+        height: 80%;
+        left: 50%;
+        bottom: 0.5%;
+    }
+}
+
+
